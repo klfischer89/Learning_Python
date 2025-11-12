@@ -29,6 +29,9 @@ for temp in temperatures: # loop through temperatures list
 
 print(fahrenheit) # [68.7, 70.2, 70.5, 74.7, 66.0, 59.7, 59.0, 83.8, 85.3, 85.6, 92.1, 92.8, 91.2, 84.2, 71.96]
 
+fahrenheit = [round(temperature * 1.8 + 32, 1) for temperature in temperatures] # list comprehension
+print(fahrenheit) # [68.7, 70.2, 70.5, 74.7, 66.0, 59.7, 59.0, 83.8, 85.3, 85.6, 92.1, 92.8, 91.2, 84.2, 71.96]
+
 primeNumbers = []
 for i in range(2, 101): # loop through numbers 2 to 100
     isPrime = True

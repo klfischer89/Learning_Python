@@ -63,3 +63,19 @@ print(filtered_names) # prints the list of filtered names
 
 numbers3 = [number for number in range(1,101) if number % 3 == 0 ] # list comprehension for numbers from 1 to 100 that are multiples of 3
 print(numbers3) # prints the list of numbers that are multiples of 3
+
+a = 23 # defines variable a
+while a >= 0: # continues while a is non-negative
+    print(a) # prints the value of a
+    a -= 1 # decrements a by 1
+
+for i in range(1, 11): # prints numbers from 1 to 10
+    if i != 5 and i != 8: # skips numbers 5 and 8
+        print(i) # prints the value of i
+
+for i in range(1, 11): # prints numbers from 1 to 10
+    if i == 5:
+        continue # skips the rest of the loop when i is 5
+    if i == 8:
+        break # exits the loop when i is 8
+    print(i) # prints the value of i

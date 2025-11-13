@@ -93,7 +93,7 @@ for word in words:
         german_translation += en_de[word] + " "
     else:
         german_translation += "? "  # unknown word
-print("German Translation:", german_translation.strip())
+print("German Translation:", german_translation.strip()) # print German translation
 
 # Translate from German to French
 german_words = german_translation.strip().split() # split German translation into words
